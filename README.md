@@ -8,7 +8,9 @@ Enkripsi base16
 
 # Info
 <p>
-Brute Force adalah teknik untuk mencari sebuah password, dengan cara mencoba semua kemungkinan kombinasi password yang ada pada wordlist atau “kamus password”. Metode ini dijamin akan berhasil menemukan password yang ingin dicari. Namun proses mencari password menggunakan metode ini akan memakan banyak waktu. 
+Enkripsi Base16<br>
+Heksadesimal atau sistem bilangan basis enam belas adalah sebuah sistem bilangan yang menggunakan 16 simbol. Berbeda dengan sistem bilangan desimal, simbol yang digunakan dari sistem ini adalah angka 0 sampai 9, ditambah dengan 6 simbol lainnya dengan menggunakan huruf A hingga F.
+Base16 juga dapat merujuk ke pengkodean dari biner ke teks yang termasuk dalam keluarga yang sama seperti Base32, Base58, dan Base64.
 </p>
 
 
@@ -18,31 +20,31 @@ Brute Force adalah teknik untuk mencari sebuah password, dengan cara mencoba sem
 <p align="center"> 
 <a href="https://github.com/kelas-kode/followers">
 <img title="Followers" src="https://img.shields.io/github/followers/kelas-kode?color=blue&style=flat-square"></a>
-<a href="https://github.com/kelas-kode/Bruteforce/stargazers/">
-<img title="Stars" src="https://img.shields.io/github/stars/kelas-kode/Bruteforce?color=red&style=flat-square"></a>
+<a href="https://github.com/kelas-kode/Base16/stargazers/">
+<img title="Stars" src="https://img.shields.io/github/stars/kelas-kode/Base16?color=red&style=flat-square"></a>
 <a href="https://github.com/Dunia-Kode/network/members">
-<img title="Forks" src="https://img.shields.io/github/forks/kelas-kode/Bruteforce?color=red&style=flat-square"></a>
-<a href="https://github.com/kelas-kode/Bruteforce/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/kelas-kode/Bruteforce?label=Watchers&color=blue&style=flat-square"></a>
+<img title="Forks" src="https://img.shields.io/github/forks/kelas-kode/Base16?color=red&style=flat-square"></a>
+<a href="https://github.com/kelas-kode/Base16/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/kelas-kode/Base16?label=Watchers&color=blue&style=flat-square"></a>
 </p> 
 
 ## Fitur
-+ Bruteforce password
++ enkripsi file python menggunakan metode enkripsi Base16
 
 ## INSTALL
 ```bash
 $ apt update && apt upgrade
 $ apt install python
 $ apt install git
-$ git clone https://github.com/kelas-kode/Bruteforce
-$ cd Bruteforce
-$ python3 brute.py
+$ git clone https://github.com/kelas-kode/Base16
+$ cd Base16
+$ python2 base-16.py
 ``` 
 
 ## Usage
 ```python
-from itertools import product # Iterator yang menghasilkan urutan yang berhenti setelah iterasi tertentu.
-import time # menghitung berapa lama bruteforce berjalan
+import base64 # modul yang digunakan untuk enkripsi base16
 import os # membersihkan layar
+enk = base64.b16encode(bukaFile) # proses encode file
 ```
 
 ## Screenshots
