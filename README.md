@@ -3,7 +3,7 @@ Enkripsi base16
 
 
 <p align="center">
-  <img src="https://github.com/kelas-kode/Bruteforce/blob/main/images.jpg" height="200" width="450"/>
+  <img src="https://github.com/kelas-kode/Base16/blob/main/hex_logo_animation_-_dribbble_thumbnail_fix.gif" height="200" width="450"/>
 </p>
 
 # Info
@@ -49,7 +49,9 @@ enk = base64.b16encode(bukaFile) # proses encode file
 
 ## Screenshots
 + Contoh
-![template_s](https://github.com/kelas-kode/Bruteforce/blob/main/Screenshot_20210303-013602061~01.jpg) 
+![template_s](https://github.com/kelas-kode/Base16/blob/main/Screenshot_20210304-023356844~01.jpg)
++ Hasil Enkripsi
+![template_s](https://github.com/kelas-kode/Base16/blob/main/Screenshot_20210304-023424632~01.jpg)
 <p align="center">
 ©Copyright Kelas Kode
 </p>
